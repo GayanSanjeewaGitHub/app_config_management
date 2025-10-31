@@ -1,0 +1,29 @@
+{
+  "name": "app-config-management",
+  "version": "1.0.0",
+  "description": "Node.js CRUD application with AWS App Config and Parameter Store integration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "aws",
+    "appconfig",
+    "parameter-store",
+    "feature-flags",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-appconfigdata": "^3.702.0",
+    "@aws-sdk/client-ssm": "^3.702.0",
+    "express": "^4.21.1",
+    "dotenv": "^16.4.5",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

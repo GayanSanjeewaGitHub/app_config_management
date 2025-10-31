@@ -1,0 +1,12 @@
+{
+  "featureFlags": {
+    "enableCreate": true,
+    "enableUpdate": true,
+    "enableDelete": false
+  },
+  "appName": "My CRUD Application",
+  "maxItemsPerPage": 100,
+  "apiVersion": "v1",
+  "enableLogging": true,
+  "cacheTimeout": 300
+}
